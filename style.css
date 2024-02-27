@@ -1,0 +1,53 @@
+/* Codul tau CSS aici */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #eee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul > li {
+  list-style: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+
+#submit-btn {
+  background-color: #007BFF;
+}
+
+#new-question-btn {
+  background-color: #DAA520; 
+}
+
+#submit-btn, #new-question-btn {
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px;
+}
+
+
+.quiz-container {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 10px #ccc;
+  min-width: 800px;
+  /* text-align: center; */
+}
+
+.right {
+  color: #008633;
+  font-weight: bold;
+}
+
+.explanation {
+  color: #777;
+}
+
